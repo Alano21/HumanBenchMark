@@ -1,0 +1,90 @@
+# FINDWRONGWORD.PY
+"""
+This module contains the FindWrongWordGame class which implements a game where the player must identify misspelled words.
+
+Classes:
+    FindWrongWordGame: A class to represent the Find Wrong Word game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname.
+    introduce_typo(self, word): Introduces a typo into a given word.
+    generate_words(self): Generates a list of words with some misspelled based on the current level.
+    play(self): Starts the game loop where the player identifies misspelled words.
+    save_score(self): Saves the player's score to a file.
+"""
+
+# GUESSWORD.PY
+"""
+This module contains the Hangman class which implements the classic Hangman game.
+
+Classes:
+    Hangman: A class to represent the Hangman game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname and selects a random word.
+    display_word(self): Displays the current state of the word being guessed.
+    play(self): Starts the game loop where the player guesses letters or the full word.
+    save_score(self, result): Saves the player's result and remaining attempts to a file.
+"""
+
+# GUESSNUMBERGAME.PY
+"""
+This module contains the GuessNumberGame class which implements a number guessing game.
+
+Classes:
+    GuessNumberGame: A class to represent the Guess Number game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname and selects a random number.
+    play(self): Starts the game loop where the player guesses the number.
+    save_score(self): Saves the player's attempts to a file.
+"""
+
+# MAIN.PY
+"""
+This module serves as the entry point for the Brain Games application, allowing players to choose from various games.
+
+Functions:
+    main(): The main function that displays the game menu and handles user input to start the selected game.
+"""
+
+# NUMBERMEMORY.PY
+"""
+This module contains the NumberMemory class which implements a number memory game.
+
+Classes:
+    NumberMemory: A class to represent the Number Memory game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname.
+    generate_number(self): Generates a random number based on the current level.
+    play(self): Starts the game loop where the player memorizes and recalls numbers.
+    save_score(self): Saves the player's level reached to a file.
+"""
+
+# VERBALMEMORY.PY
+"""
+This module contains the VerbalMemory class which implements a verbal memory game.
+
+Classes:
+    VerbalMemory: A class to represent the Verbal Memory game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname.
+    play(self): Starts the game loop where the player identifies if a word is new or seen.
+    get_new_word(self): Retrieves a random word from the word list.
+    save_score(self): Saves the player's final score to a file.
+"""
+
+# REACTIONTIME.PY
+"""
+This module contains the ReactionTime class which implements a reaction time game.
+
+Classes:
+    ReactionTime: A class to represent the Reaction Time game.
+
+Methods:
+    __init__(self, nickname): Initializes the game with the player's nickname.
+    play(self): Starts the game loop where the player reacts to a prompt as quickly as possible.
+    save_score(self): Saves the player's reaction time to a file.
+"""

@@ -1,1 +1,2 @@
-# HumanBenchMark
+# HumanBenchmark
+Hubert Zarychta, Alan Jędrzejczak
