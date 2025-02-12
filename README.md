@@ -1,2 +1,2 @@
 # HumanBenchmark
-Hubert Zarychta, Alan Jędrzejczak
+Created by Alano21 & Hub1i
